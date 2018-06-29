@@ -1,8 +1,13 @@
 # Gif-Tastic
 
+Conclusion: 
+
+This assignment was much shorter than the previous ones(not complaining!) I was able to finish it in about 5-6hrs. It helped me better understand using APIs/AJAX. I was going to tackle the bonus elements, but decided I should start on the next HW asap!
+
+
+
 
 Psuedo-Code:
-
 
 Function that creates/displays current array of buttons.
     On lick, buttons pull from giphy and prepend 10 gifs.
