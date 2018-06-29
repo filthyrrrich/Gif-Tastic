@@ -10,16 +10,32 @@
     <title>Gif-Tastic</title>
   </head>
   <body>
-
-    <div id="movieButtons"></div>
-
-    <form id="movieForm">
+    
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Gettin' Giphy With It!</h1>
+            <p class="lead"> - Click the buttons to see your favorite movie gifs!<br> - If you don't see your favorite movie, just add one.</p>
+          </div>
+       
+  
+<form id="movieForm" class="container" >
         <label for="movie-input">Add a Movie!</label>
         <input type="text" id="movieInput"><br>
         <input type="submit" id="addMovie" value="submit">
     </form>
 
-    <div id="movies"></div>
+      <div class="container" id="movieButtons"></div>
+ </div>
+      
+  
+    <div class="container">
+      <div class="row" id="movies">
+        
+    </div>
+  </div>
+
+  <footer>&copy; 2018 RICH SCHIFFER</footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
